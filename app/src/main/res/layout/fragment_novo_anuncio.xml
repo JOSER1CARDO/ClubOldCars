@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    tools:context=".fragments.NovoAnuncioFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view7"
+                style="@style/ContainerComponents3"
+                android:layout_width="446dp"
+                android:layout_height="1411dp"
+                android:layout_marginTop="300dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.512"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerMarcas"
+                style="@style/CustomSpinnerStyle"
+                android:layout_width="328dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="368dp"
+                android:hint="Marca"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerModelos"
+                android:layout_width="332dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="436dp"
+                android:hint="Marca"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerCor"
+                android:layout_width="329dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="596dp"
+                android:hint="Cor"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="329dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="536dp"
+                android:text="Cor"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="335dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="1020dp"
+                android:text="Combustivel"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="335dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="1188dp"
+                android:text="Aceita troca?"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="335dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="1352dp"
+                android:text="KM"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/txtKm"
+                android:layout_width="232dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="1396dp"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="343dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="1472dp"
+                android:background="@color/amarelo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="335dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="680dp"
+                android:text="Cambio"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="142dp"
+                android:layout_height="71dp"
+                android:layout_marginTop="816dp"
+                android:text="Ano Fabricação"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.253"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="142dp"
+                android:layout_height="71dp"
+                android:layout_marginTop="816dp"
+                android:text="Ano Modelo"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.755"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerCambio"
+                android:layout_width="321dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="736dp"
+                android:hint="Cambio"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerAnoFab"
+                android:layout_width="108dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="900dp"
+                android:hint="Ano"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.268"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerAnoMod"
+                android:layout_width="111dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="900dp"
+                android:hint="Ano"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.729"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerCombustivel"
+                android:layout_width="321dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="1076dp"
+                android:hint="Cambio"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinnerTroca"
+                android:layout_width="187dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="1244dp"
+                android:hint="troca"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="343dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="516dp"
+                android:background="@color/amarelo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="343dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="652dp"
+                android:background="@color/amarelo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="343dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="800dp"
+                android:background="@color/amarelo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="343dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="972dp"
+                android:background="@color/amarelo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="343dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="1152dp"
+                android:background="@color/amarelo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="343dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="1316dp"
+                android:background="@color/amarelo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="190dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="332dp"
+                android:text="Marca/Modelo"
+                android:textAlignment="viewStart"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <VideoView
+                android:outlineAmbientShadowColor="@color/white"
+                android:id="@+id/videoView"
+                android:layout_width="513dp"
+                android:layout_height="294dp"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnAvancar"
+                android:layout_width="382dp"
+                android:layout_height="113dp"
+                android:layout_marginTop="1560dp"
+                android:src="@drawable/icon_avancar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

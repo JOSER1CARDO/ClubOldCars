@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    tools:context=".fragments.NovoDestaqueFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="102dp"
+            android:layout_height="147dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="291dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="148dp"
+            android:src="@drawable/img_cadastro_destaque"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_criar"
+            android:layout_width="291dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="1588dp"
+            android:src="@drawable/img_criar_destaque"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtPremio"
+            android:layout_width="380dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="664dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="464dp"
+            android:text="Posicao"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtPosicao"
+            android:layout_width="127dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="number"
+            android:padding="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="620dp"
+            android:text="Premio"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="280dp"
+            android:text="Titulo"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="1068dp"
+            android:text="Foto"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="411dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="1468dp"
+            android:text="Clique no quadro e selecione uma foto"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.639"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtTitulo"
+            android:layout_width="380dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="312dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtDescricao"
+            android:layout_width="387dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="860dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="820dp"
+            android:text="Descricao"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btnImagen"
+            android:layout_width="377dp"
+            android:layout_height="361dp"
+            android:layout_marginTop="1108dp"
+            android:background="@drawable/edittext_border"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

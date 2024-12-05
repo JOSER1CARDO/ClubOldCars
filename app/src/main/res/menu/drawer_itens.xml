@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/navHome1"
+            android:icon="@drawable/icon_home"
+            android:title="Home"/>
+    </group>
+
+
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/icon_anuncio"
+            android:title="Novo Anuncio"/>
+
+        <item
+            android:id="@+id/navNovoEvento"
+            android:icon="@drawable/icon_novoevento"
+            android:title="Novo Evento"/>
+
+    </group >
+
+    <group android:id="@+id/group7">
+
+        <item
+            android:id="@+id/anuncios"
+            android:icon="@drawable/icon_anuncio"
+            android:title="Anuncios"/>
+        <item
+            android:id="@+id/navEventos"
+            android:icon="@drawable/icon_novoevento"
+            android:title="Eventos"/>
+
+    </group>
+
+
+
+    <group android:id="@+id/group8">
+
+        <item
+            android:id="@+id/navMeusEventos"
+            android:icon="@drawable/icon_novoevento"
+            android:title="Meus Eventos"/>
+        <item
+            android:id="@+id/navMeusAnuncios"
+            android:icon="@drawable/icon_anuncio"
+            android:title="Meus anuncios"/>
+
+    </group>
+
+
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/navAceitarEventos"
+            android:icon="@drawable/icon_calendario"
+            android:title="Eventos pendentes"/>
+        <item
+            android:id="@+id/navRemoverAnuncios"
+            android:icon="@drawable/icon_novoevento"
+            android:title="Denuncia de Anuncios"/>
+        <item
+            android:id="@+id/navAdm"
+            android:icon="@drawable/icon_adm"
+            android:title="Administradores"/>
+
+
+
+    </group>
+
+</menu>

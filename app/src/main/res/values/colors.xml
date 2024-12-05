@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="cinza">#BDBDBD</color>
+    <color name="red">#EB0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorVeiculoSelected">#84DCF2</color> <!-- Cor para Veículo selecionado -->
+    <color name="colorPecaSelected">#84DCF2</color> <!-- Cor para Peça selecionada -->
+    <color name="colorDefault">#CCCCCC</color> <!-- Cor padrão dos botões -->
+    <color name="amarelo">#EBBE14</color> <!-- Cor padrão dos botões -->
+
+</resources>

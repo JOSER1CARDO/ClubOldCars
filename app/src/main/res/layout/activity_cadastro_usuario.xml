@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroUsuario">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/degrade_azul"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            style="@style/btnEdit"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="264dp"
+            android:layout_marginTop="1013dp"
+            android:layout_marginEnd="81dp"
+            android:text="Cadastrar"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            style="@style/btnEdit"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="1013dp"
+            android:layout_marginEnd="280dp"
+            android:text="Voltar"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="478dp"
+            android:layout_height="179dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="29dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/txtSenha2"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="806dp"
+            android:layout_marginEnd="47dp"
+            android:ems="10"
+            android:hint="Confirme a Senha"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/txtNome"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="306dp"
+            android:layout_marginEnd="47dp"
+            android:ems="10"
+            android:hint="Nome Completo"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtCpf"
+            style="@style/EditText"
+            android:layout_width="476dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="406dp"
+            android:layout_marginEnd="47dp"
+            android:ems="14"
+            android:hint="CPF"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtTelefone"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="506dp"
+            android:layout_marginEnd="47dp"
+            android:ems="10"
+            android:hint="telefone"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="606dp"
+            android:layout_marginEnd="47dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtSenha"
+            style="@style/EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="706dp"
+            android:layout_marginEnd="47dp"
+            android:ems="10"
+            android:hint="Senha"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="465dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="948dp"
+            android:layout_marginEnd="58dp"
+            android:button="@drawable/checkbox_backgroud"
+            android:text="  Li e aceito os termos de uso"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnTermos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="889dp"
+            android:layout_marginEnd="245dp"
+            android:text="Termos de uso LGPD" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
